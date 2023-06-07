@@ -4,18 +4,38 @@ body {
 }
 
 .header {
-    display: block;
     position: fixed;
-    background-color: #007765;
-    width: 100%;
+    width: 1219px;
     height: 84px;
+    background-color: #007765;
 }
 
+
+.in_header {
+    display: inline-block;
+    vertical-align: center;
+}
+
+.in_header > .logo {
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+.in_header > .text1 {
+    margin-top: 28px;
+    margin-left: 502px;
+}
+
+
+
+
+/* 
 .jumbotron {
     display: block;
-    width: 100%;
+    
+    width: 1500px;
     height: 403px;
-    background-image: url(image.png);
+    background-image: url(images/image.png);
 }
 
 .the_problem {
@@ -29,14 +49,14 @@ body {
     display: block;
     width: 100%;
     height: 483px;
-    background-image: url(image2.png);
+    background-image: url(images/image2.png);
 }
 
 .ppc {
     display: block;
     width: 100%;
     height: 604px;
-    background-image: url(image2.png);
+    background-image: url(images/image2.png);
 }
 
 .the_team {
@@ -51,4 +71,4 @@ body {
     width: 100%;
     height: 176px;
     background-color: #333333;
-}
+} */
